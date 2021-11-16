@@ -5,11 +5,11 @@
 </p>
 
 <p align="left">
-  🦄 Linguagens para estudo: <strong>Pyhton, GO e Rust</strong>
+  📚 Linguagens para estudo: <strong>Pyhton, GO e Rust</strong>
 </p>
 
 <p align="left">
-  💼 Ferramentas: <strong>Linux, Ansible, Vim, Bacula</strong>
+  ☢️ Ferramentas: <strong>Linux, Ansible, Vim, Bacula</strong>
 </p>
 
 <p align="left">

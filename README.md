@@ -19,4 +19,8 @@
 <p align="left">
   <a href="mailto:snydermacedo@gmail.com" alt="Gmail">
   <img src="https://img.shields.io/badge/-Gmail-FF0000?style=flat-square&labelColor=FF0000&logo=gmail&logoColor=white&link=mailto:snydermacedo@gmail.com" /></a>
-</p>  
+</p> 
+
+<p align=left>
+<img alt="Twitch Status" src="https://img.shields.io/twitch/status/snydermacedo?style=social">
+</p>

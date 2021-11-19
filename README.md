@@ -13,7 +13,7 @@
 </p>
 
 <p align="left">
-  💌 Para trocamos uma ideia: ⤵️
+  📬 Para trocamos uma ideia: ⤵️
 </p>
 
 <p align="left">

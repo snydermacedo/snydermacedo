@@ -10,7 +10,7 @@ readingTime = false
 
 # Ideias Para o Blog
 
-Pessoal este blog tem como foco **Tecnologias Open Source**, mas tambêm prentendo trazer os seguintes conteudos:
+Pessoal este blog tem como foco **Tecnologias Open Source**, mas também pretendendo trazer os seguintes conteudos:
 
 - :shinto_shrine: Animes
 - :video_game: Games

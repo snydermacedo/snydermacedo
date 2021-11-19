@@ -6,7 +6,6 @@ cover = "/img/proxmox.png"
 tags = ["proxmox", "virtualization"]
 keywords = ["proxmox", "virtualization"]
 description = "Proxmox 7.1 - Lançado"
-showFullContent = false
 readingTime = true
 +++
 

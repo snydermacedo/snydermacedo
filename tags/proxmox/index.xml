@@ -13,7 +13,10 @@ Outra novidade é que está nova versão é baseada no Debian Bullseye 11.1, com
 &lt;/ul>
 &lt;hr>
 &lt;p>Agora é prepara o laboratório para os testes. ☢️&lt;/p>
+&lt;p>💾 &lt;strong>&lt;a href="https://www.proxmox.com/en/downloads/item/proxmox-ve-7-1-iso-installer">Link para Download&lt;/a>&lt;/strong> 💾&lt;/p>
 &lt;p>Pessoal para mais informação segue o &lt;strong>&lt;a href="https://www.proxmox.com/en/news/press-releases/proxmox-virtual-environment-7-1-released">Link&lt;/a>&lt;/strong> para a matéria completa.&lt;/p>
 &lt;p>Abaixo o video do Canal Proxmox mostrando as novidades.&lt;/p>
-&lt;iframe width="915" height="515" src="https://www.youtube.com/embed/NLV6QPaHVFY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>&lt;/iframe>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/NLV6QPaHVFY" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
 &lt;h2 id="valeu-galera">Valeu galera!&lt;/h2></content></item></channel></rss>

@@ -4,7 +4,7 @@ date = "2021-11-17T13:10:16-04:00"
 author = "Snyder Macedo"
 cover = "img/brainstorm.jpg"
 description = "Minhas ideias para o blog"
-showFullContent = false
+showFullContent = true
 readingTime = false
 +++
 

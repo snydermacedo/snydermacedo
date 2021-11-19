@@ -5,10 +5,10 @@ commit="no message for this commit"
 
 cd public
 git add .
-git commit -m "${commit}"
+git commit -a -m "${commit}"
 git push origin main
 
 cd ..
 git add .
-git commit -m "${commit}"
+git commit -a -m "${commit}"
 git push origin main

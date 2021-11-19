@@ -1,9 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Terminal</title><link>https://snydermacedo.github.io/</link><description>Recent content on Terminal</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 18 Nov 2021 19:17:21 -0400</lastBuildDate><atom:link href="https://snydermacedo.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>uname - print system information</title><link>https://snydermacedo.github.io/uname/</link><pubDate>Thu, 18 Nov 2021 23:32:25 -0400</pubDate><guid>https://snydermacedo.github.io/uname/</guid><description/><content>&lt;!-- raw HTML omitted -->
-&lt;!-- raw HTML omitted -->
-&lt;!-- raw HTML omitted -->
-&lt;!-- raw HTML omitted -->
-&lt;!-- raw HTML omitted -->
-&lt;!-- raw HTML omitted -->
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Terminal</title><link>https://snydermacedo.github.io/</link><description>Recent content on Terminal</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 18 Nov 2021 19:17:21 -0400</lastBuildDate><atom:link href="https://snydermacedo.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>uname - print system information</title><link>https://snydermacedo.github.io/uname/</link><pubDate>Thu, 18 Nov 2021 23:32:25 -0400</pubDate><guid>https://snydermacedo.github.io/uname/</guid><description>Entusiasta DevOps, que curtir um bom metroidvania. 📚 Linguagens para estudo: Pyhton, GO e Rust
+☢️ Ferramentas: Linux, Ansible, Vim, Bacula
+🐧 Linux que estou usando: 📬 Para trocamos uma ideia: ⤵️</description><content>&lt;h5 id="entusiasta-devops-que-curtir-um-bom-metroidvania">Entusiasta DevOps, que curtir um bom metroidvania.&lt;/h5>
+&lt;p>📚 Linguagens para estudo: &lt;strong>Pyhton, GO e Rust&lt;/strong>&lt;/p>
+&lt;p>☢️ Ferramentas: &lt;strong>Linux, Ansible, Vim, Bacula&lt;/strong>&lt;/p>
+&lt;p>🐧 Linux que estou usando: &lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->&lt;/p>
+&lt;p>📬 Para trocamos uma ideia: ⤵️&lt;/p>
 &lt;!-- raw HTML omitted -->
 &lt;!-- raw HTML omitted --></content></item><item><title>Lançado o Proxmox 7.1</title><link>https://snydermacedo.github.io/posts/proxmox-7.1/</link><pubDate>Thu, 18 Nov 2021 19:17:21 -0400</pubDate><guid>https://snydermacedo.github.io/posts/proxmox-7.1/</guid><description>Olá pessoal!!! Nessa última quarta-feira (17/11/2021), foi o lançamento do Proxmox 7.1, trazendo várias atualizações para os principais softwares Open Source na área da Virtualização, sendo eles: QEMU 6.1, LXC 4.0, Ceph Pacific 16.2.6 e ZFS 2.1. Outra novidade, é que esta nova versão é baseada no Debian Bullseye 11.1, combinada com o kernel Linux 5.13 mais recente.
 Abaixo a lista de algumas novidades:

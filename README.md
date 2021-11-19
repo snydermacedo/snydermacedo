@@ -13,6 +13,11 @@
 </p>
 
 <p align="left">
+  🐧 Linux que estou usando: </br>
+  <img src="https://img.shields.io/badge/manjaro-35BF5C?style=for-the-badge&logo=manjaro&logoColor=white">
+</p>
+
+<p align="left">
   📬 Para trocamos uma ideia: ⤵️
 </p>
 

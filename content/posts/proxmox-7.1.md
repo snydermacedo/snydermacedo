@@ -10,8 +10,8 @@ showFullContent = false
 readingTime = false
 +++
 
-Olá pessoal nesta uma ultima quarta-feita (17/112021), foi o lançamento do Proxmox 7.1, trazendo varias atualizações para os principais software **Open Source** no area da **Virtualização**, sendo eles: QEMU 6.1, LXC 4.0, Ceph Pacific 16.2.6 e ZFS 2.1.
-Outra novidade e que está nova versão é baseada no Debian Bullseye 11.1 combinada com o kernel **Linux** 5.13 mais recente.
+Olá pessoal nesta uma ultima quarta-feita (17/112021), foi o lançamento do Proxmox 7.1, trazendo várias atualizações para os principais softwares **Open Source** na área da **Virtualização**, sendo eles: QEMU 6.1, LXC 4.0, Ceph Pacific 16.2.6 e ZFS 2.1.
+Outra novidade é que está nova versão é baseada no Debian Bullseye 11.1, combinada com o kernel **Linux** 5.13 mais recente.
 
 **Abaixo a lista de algumas novidades:**
 
@@ -22,9 +22,11 @@ Outra novidade e que está nova versão é baseada no Debian Bullseye 11.1 combi
 
 ---
 
-É agora e prepara o laboratório para os testes. ☢️
+Agora é prepara o laboratório para os testes. ☢️
 
-Pessoal para mais informação segue o **[Link](https://www.proxmox.com/en/news/press-releases/proxmox-virtual-environment-7-1-released)** para a matéria completa ou assistam a galera do Proxmox mostrando as novidades.
+Pessoal para mais informação segue o **[Link](https://www.proxmox.com/en/news/press-releases/proxmox-virtual-environment-7-1-released)** para a matéria completa.
+
+Abaixo o video do Canal Proxmox mostrando as novidades.
 
 <iframe width="915" height="515" src="https://www.youtube.com/embed/NLV6QPaHVFY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

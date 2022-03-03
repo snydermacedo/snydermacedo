@@ -5,7 +5,6 @@ NAS - Network Attached Storage Um sistema NAS é um dispositivo de armazenamento
 O OMV trata-se de uma solução pronta para uso (out-of-the-box), simples e fácil de usar, graças a sua Interface Web.</description><content>&lt;h1 id="openmediavault--overview">OpenMediaVault | Overview&lt;/h1>
 &lt;p>Olá, pessoal!&lt;/p>
 &lt;p>Apresento o OpenMediaVault (OMV para os íntimos)&lt;/p>
-&lt;hr>
 &lt;p>Este sistema operacional se trata de um NAS, baseado no Linux Debian.&lt;/p>
 &lt;blockquote>
 &lt;p>&lt;strong>NAS - Network Attached Storage&lt;/strong>
@@ -14,7 +13,7 @@ O OMV trata-se de uma solução pronta para uso (out-of-the-box), simples e fác
 &lt;p>O OMV trata-se de uma solução pronta para uso (out-of-the-box), simples e fácil de usar, graças a sua Interface Web. Primariamente foi projetado para atuar em ambiente doméstico ou pequenos escritórios, mas não se limita só a esses cenários, podendo atuar também em ambiente corporativo.&lt;/p>
 &lt;p>O sistema é construído em um design modular e pode ser facilmente estendido com Plugins disponíveis logo após a instalação do sistema básico.&lt;/p>
 &lt;p>&lt;img src="http://www.openmediavault.org/wp-content/uploads/2021/11/omv6_plugins.png" alt="OMV Plugins">&lt;/p>
-&lt;p>###Destaques:&lt;/p>
+&lt;h3 id="destaques">Destaques:&lt;/h3>
 &lt;ul>
 &lt;li>Disponível para plataformas x86-64 e ARM (sim pode ser instalando no seu Raspberry).&lt;/li>
 &lt;li>Possui Interface Web bastante rica, para sua administração&lt;/li>
@@ -40,8 +39,8 @@ O OMV trata-se de uma solução pronta para uso (out-of-the-box), simples e fác
 &lt;/li>
 &lt;/ul>
 &lt;blockquote>
-&lt;p>&lt;strong>Observação&lt;/strong>
-&lt;em>É necessário 2 discos, um exclusivo para o Sistema Operacional e outro para o Dados.&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Observação&lt;/strong>&lt;/p>
+&lt;p>&lt;em>É necessário 2 discos, um exclusivo para o Sistema Operacional e outro para o Dados.&lt;/em>&lt;/p>
 &lt;/blockquote>
 &lt;p>&lt;img src="http://www.openmediavault.org/wp-content/uploads/2021/11/omv6_dashboard.png" alt="OMV End">&lt;/p>
 &lt;hr>

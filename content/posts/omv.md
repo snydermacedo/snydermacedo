@@ -17,7 +17,7 @@ Apresento o OpenMediaVault (OMV para os íntimos)
 
 Este sistema operacional se trata de um NAS, baseado no Linux Debian.
 
-> **NAS - Network Attached Storage**
+> **NAS - Network Attached Storage**  
 > *Um sistema NAS é um dispositivo de armazenamento conectado a uma rede que possibilita o armazenamento e a recuperação de dados de um local centralizado para usuários autorizados da rede e clientes heterogêneos.*[^1]
 
 O OMV trata-se de uma solução pronta para uso (out-of-the-box), simples e fácil de usar, graças a sua Interface Web. Primariamente foi projetado para atuar em ambiente doméstico ou pequenos escritórios, mas não se limita só a esses cenários, podendo atuar também em ambiente corporativo. 

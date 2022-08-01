@@ -69,6 +69,12 @@ enableEmoji=true
         identifier = "about"
         name = "Uname"
         url = "/uname"
+	weight = 2
+      [[languages.en.menu.main]]
+        identifier = "infra"
+        name = "Infra"
+        url = "/infra/"
+	weight = 3
 
 [markup]
   defaultMarkdownHandler = 'goldmark'

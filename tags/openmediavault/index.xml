@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>openmediavault on Terminal</title><link>https://snydermacedo.github.io/tags/openmediavault/</link><description>Recent content in openmediavault on Terminal</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 01 Mar 2022 00:05:46 -0400</lastBuildDate><atom:link href="https://snydermacedo.github.io/tags/openmediavault/index.xml" rel="self" type="application/rss+xml"/><item><title>OpenMediaVault | Overview</title><link>https://snydermacedo.github.io/posts/omv/</link><pubDate>Tue, 01 Mar 2022 00:05:46 -0400</pubDate><guid>https://snydermacedo.github.io/posts/omv/</guid><description>OpenMediaVault | Overview Olá, pessoal!
 Apresento o OpenMediaVault (OMV para os íntimos)
 Este sistema operacional se trata de um NAS, baseado no Linux Debian.
-NAS - Network Attached Storage Um sistema NAS é um dispositivo de armazenamento conectado a uma rede que possibilita o armazenamento e a recuperação de dados de um local centralizado para usuários autorizados da rede e clientes heterogêneos.1
+NAS - Network Attached Storage
+Um sistema NAS é um dispositivo de armazenamento conectado a uma rede que possibilita o armazenamento e a recuperação de dados de um local centralizado para usuários autorizados da rede e clientes heterogêneos.1
 O OMV trata-se de uma solução pronta para uso (out-of-the-box), simples e fácil de usar, graças a sua Interface Web.</description><content>&lt;h1 id="openmediavault--overview">OpenMediaVault | Overview&lt;/h1>
 &lt;p>Olá, pessoal!&lt;/p>
 &lt;p>Apresento o OpenMediaVault (OMV para os íntimos)&lt;/p>
 &lt;p>Este sistema operacional se trata de um NAS, baseado no Linux Debian.&lt;/p>
 &lt;blockquote>
-&lt;p>&lt;strong>NAS - Network Attached Storage&lt;/strong>
+&lt;p>&lt;strong>NAS - Network Attached Storage&lt;/strong>&lt;br>
 &lt;em>Um sistema NAS é um dispositivo de armazenamento conectado a uma rede que possibilita o armazenamento e a recuperação de dados de um local centralizado para usuários autorizados da rede e clientes heterogêneos.&lt;/em>&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>
 &lt;/blockquote>
 &lt;p>O OMV trata-se de uma solução pronta para uso (out-of-the-box), simples e fácil de usar, graças a sua Interface Web. Primariamente foi projetado para atuar em ambiente doméstico ou pequenos escritórios, mas não se limita só a esses cenários, podendo atuar também em ambiente corporativo.&lt;/p>
@@ -46,11 +47,11 @@ O OMV trata-se de uma solução pronta para uso (out-of-the-box), simples e fác
 &lt;hr>
 &lt;p>Pessoal, vou ficando por aqui, nos próximos posts (sobre o OMV) trarei um guia de instalação mas, para quem já queira testar, aqui está o &lt;a href="%5Bhttps://www.openmediavault.org/%5D(https://www.openmediavault.org/)">link&lt;/a>&lt;/p>
 &lt;p>Valeu, até a próxima.&lt;/p>
-&lt;section class="footnotes" role="doc-endnotes">
+&lt;div class="footnotes" role="doc-endnotes">
 &lt;hr>
 &lt;ol>
-&lt;li id="fn:1" role="doc-endnote">
+&lt;li id="fn:1">
 &lt;p>&lt;a href="https://www.seagate.com/br/pt/tech-insights/what-is-nas-master-ti/">NAS&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></content></item></channel></rss>
+&lt;/div></content></item></channel></rss>

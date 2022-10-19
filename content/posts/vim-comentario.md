@@ -5,7 +5,7 @@ author = "Snyder Macedo"
 cover = "/img/neovim.png"
 tags = ["vim", "comment"]
 keywords = ["vim", "comment"]
-description = ""
+description = "Vim - Comentário em várias linhas"
 readingTime = true
 +++
 
@@ -16,7 +16,6 @@ Olá, pessoal!
 Deixando a piada _“como sair do vim”_ um pouco de lado... [^1]
 
 Nesses últimos dias estou revisando alguns arquivos de configuração no servidor e me deparei com a seguinte situação: **“Comentar várias linhas no VIM”**.
-
 
 ---
 

@@ -9,30 +9,24 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-22.04
-    concurrency:
-      group: ${{ github.workflow }}-${{ github.ref }}
     steps:
       - uses: actions/checkout@v3
         with:
-          submodules: recursive  # Fetch the Docsy theme
-          fetch-depth: 0         # Fetch all history for .GitInfo and .Lastmod
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: peaceiris/actions-hugo@v2.5.0
         with:
-          hugo-version: '0.91.2'
-          extended: true
+          hugo-version: 'latest'
+          # extended: true
 
-      - name: Setup Node
-        uses: actions/setup-node@v3
-        with:
-          node-version: '16'
-
-      - run: npm ci
-      - run: hugo --minify
+      - name: Build
+        run: hugo --minify
 
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        if: ${{ github.ref == 'refs/heads/master' }}
+        uses: peaceiris/actions-gh-pages@v3.8.0
+        if: github.ref == 'refs/heads/main'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public

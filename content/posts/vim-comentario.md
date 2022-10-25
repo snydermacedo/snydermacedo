@@ -1,6 +1,6 @@
 +++
 title = "Vim - Comentar & DEScomentar"
-date = "2022-10-16T00:58:04-04:00"
+date = "2022-10-24T00:58:04-04:00"
 author = "Snyder Macedo"
 cover = "/img/neovim.png"
 tags = ["vim", "comment"]

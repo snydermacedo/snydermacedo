@@ -4,3 +4,6 @@
 [submodule "public"]
 	path = public
 	url = https://github.com/snydermacedo/snydermacedo.github.io
+[submodule "publicll"]
+	path = publicll
+	url = https://github.com/snydermacedo/snydermacedo.github.io

@@ -1,6 +1,6 @@
 +++
 title = "Wipe Disk | dd"
-date = "2023-02-13T20:58:57-04:00"
+date = "2023-02-21T20:58:57-04:00"
 author = "Snyder Macedo"
 cover = "https://pplware.sapo.pt/wp-content/uploads/2013/04/imagem_limpar_pc-600x400.jpg"
 tags = ["Wipe", "dd"]

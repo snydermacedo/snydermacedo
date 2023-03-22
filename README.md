@@ -23,5 +23,5 @@
 
 <p align="left">
   <a href="#" alt="Twitch">
-  <img alt="Twitch Status" src="https://img.shields.io/twitch/status/:snydermacedo?style=social"></a>
+  <img alt="Twitch Status" src="https://img.shields.io/twitch/status/SnyderMacedo?style=social"></a>
 </p>

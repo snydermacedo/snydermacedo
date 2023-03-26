@@ -5,7 +5,7 @@ author = "Snyder Macedo"
 cover = "https://proxmox.com/images/proxmox/screenshots/Proxmox-VE-7-4-darktheme.png"
 tags = ["proxmox", "virtualization"]
 keywords = ["proxmox", "virtualization"]
-description = ""
+description = "Update Proxmox"
 readingTime = true
 +++
 

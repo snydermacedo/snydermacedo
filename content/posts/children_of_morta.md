@@ -6,7 +6,5 @@ cover = "https://cdn.akamai.steamstatic.com/steam/apps/330020/ss_e7bbfd5607b247a
 tags = ["indie", "games_linux"]
 keywords = ["indie", "games_linux"]
 description = ""
-showFullContent = false
-readingTime = false
-hideComments = false
+readingTime = true
 +++

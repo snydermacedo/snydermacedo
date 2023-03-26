@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Terminal</title><link>https://snydermacedo.github.io/posts/</link><description>Recent content in Posts on Terminal</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 26 Mar 2023 15:34:27 -0400</lastBuildDate><atom:link href="https://snydermacedo.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Lançado o Proxmox 7.4</title><link>https://snydermacedo.github.io/posts/proxmox-7.4/</link><pubDate>Sun, 26 Mar 2023 15:34:27 -0400</pubDate><guid>https://snydermacedo.github.io/posts/proxmox-7.4/</guid><description>Proxmox 7.1 - Dark Mode Olá, pessoal!!!
+Nessa última quarta-feira (23/03/2023), foi o lançamento do Proxmox 7.4, destacando:
+Base Debian 11.6 (“Bullseye”), com o kernel Linux 5.15 LTS Instalação opcional do kernel Linux 6.2 | Suporte para os hardwares mais recente O tão aguardado: &amp;ldquo;Proxmox Dark&amp;rdquo; 💾 Link para Download 💾
+Para confera a materia completa, clique aqui.
+Vou deixar também o video mostrando todas as novidades:
+Pessoal, vou ficando por aqui, valeu!</description><content>&lt;h1 id="proxmox-71---dark-mode">Proxmox 7.1 - Dark Mode&lt;/h1>
+&lt;p>Olá, pessoal!!!&lt;/p>
+&lt;p>Nessa última quarta-feira (23/03/2023), foi o lançamento do Proxmox 7.4, destacando:&lt;/p>
+&lt;ul>
+&lt;li>Base Debian 11.6 (“Bullseye”), com o kernel Linux 5.15 LTS&lt;/li>
+&lt;li>Instalação opcional do kernel Linux 6.2 | Suporte para os hardwares mais recente&lt;/li>
+&lt;li>O tão aguardado: &amp;ldquo;Proxmox Dark&amp;rdquo;&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://proxmox.com/images/proxmox/screenshots/Proxmox-VE-7-4-OSD-Details.png" alt="Dark Mode">&lt;/p>
+&lt;p>💾 &lt;a href="https://proxmox.com/en/downloads/item/proxmox-ve-7-4-iso-installer">&lt;strong>Link para Download&lt;/strong>&lt;/a> 💾&lt;/p>
+&lt;p>Para confera a materia completa, clique &lt;a href="https://proxmox.com/en/news/press-releases/proxmox-virtual-environment-7-4">&lt;strong>aqui&lt;/strong>&lt;/a>.&lt;/p>
+&lt;p>Vou deixar também o video mostrando todas as novidades:&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/CnJX5gaoges" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;h1 id="pessoal-vou-ficando-por-aqui-valeu">Pessoal, vou ficando por aqui, valeu!&lt;/h1></content></item><item><title>Wipe Disk | dd</title><link>https://snydermacedo.github.io/posts/wipe_dd/</link><pubDate>Tue, 21 Feb 2023 00:00:00 +0000</pubDate><guid>https://snydermacedo.github.io/posts/wipe_dd/</guid><description>Wipe Disk com dd Olá, pessoal!
+Neste post vou mostra a vocês como fazer:
+Wipe Disk | Limpeza de Disco Diferente de uma formatação, o Wipe sobrescreve os bits do seu dispositivo com zer0s, dificultando e muito a recuperação dos dados. Esse procedimento é recomendado quando vamos fazer uma doação ou venda.
+Bem, para executar o wipe vou usar a ferramenta ‘dd&amp;rsquo;, o comando vai ficar assim:
+# dd if=/dev/zero of=/dev/sdX bs=4096 status=progress Vamos a explicação:</description><content>&lt;h1 id="wipe-disk-com-dd">Wipe Disk com dd&lt;/h1>
+&lt;p>Olá, pessoal!&lt;/p>
+&lt;p>Neste post vou mostra a vocês como fazer:&lt;/p>
+&lt;pre tabindex="0">&lt;code>Wipe Disk | Limpeza de Disco
+&lt;/code>&lt;/pre>&lt;p>Diferente de uma formatação, o Wipe sobrescreve os bits do seu dispositivo com zer0s, dificultando e muito a recuperação dos dados.
+Esse procedimento é recomendado quando vamos fazer uma doação ou venda.&lt;/p>
+&lt;p>Bem, para executar o wipe vou usar a ferramenta ‘dd&amp;rsquo;, o comando vai ficar assim:&lt;/p>
+&lt;pre tabindex="0">&lt;code class="language-sh:" data-lang="sh:"># dd if=/dev/zero of=/dev/sdX bs=4096 status=progress
+&lt;/code>&lt;/pre>&lt;p>Vamos a explicação:&lt;/p>
+&lt;ul>
+&lt;li>if – origem | vamos usar o arquivo especial /dev/zero&lt;/li>
+&lt;li>of – destino | informamos o disco que queremos limpar (se atente ao X)&lt;/li>
+&lt;li>bs - a quantidade de bytes lido ou escrito por vez&lt;/li>
+&lt;li>status – mostra estatísticas periódicas de transferência.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>Como exemplo, vou executar o comando em um pendrive.&lt;br>
+Para descobrir o caminho do pendrive vou usar o comando:&lt;/p>
+&lt;pre tabindex="0">&lt;code class="language-sh:" data-lang="sh:">sudo fdisk -l
+&lt;/code>&lt;/pre>&lt;p>Retornando a informação:&lt;/p>
+&lt;pre tabindex="0">&lt;code>Disco /dev/sdb: 3,61 GiB, 3880452096 bytes, 7579008 setores
+Modelo de disco: USB DISK 2.0
+Unidades: setor de 1 * 512 = 512 bytes
+Tamanho de setor (lógico/físico): 512 bytes / 512 bytes
+Tamanho E/S (mínimo/ótimo): 512 bytes / 512 bytes
+Tipo de rótulo do disco: gpt
+Identificador do disco: 7D7473EA-FCE2-4E11-B09B-A49D0A25CE4C
+&lt;/code>&lt;/pre>&lt;p>Na primeira linha já informa o caminho &amp;ldquo;/dev/sdb&amp;rdquo;&lt;/p>
+&lt;p>Pronto, vamos fazer &amp;ldquo;Wipe&amp;rdquo; neste pendrive, o nosso comando vai ficar assim:&lt;/p>
+&lt;pre tabindex="0">&lt;code class="language-sh:" data-lang="sh:">% sudo dd if=/dev/zero of=/dev/sdb bs=4096 status=progress
+&lt;/code>&lt;/pre>&lt;p>Ao término, o processo vai ficar assim:&lt;/p>
+&lt;p>&lt;img src="https://snydermacedo.github.io/img/wipe-red-drive.png" alt="Wipe Red Drive">&lt;/p>
+&lt;hr>
+&lt;p>Caso queria assistir todo o procedimento, só ficou um pouco extenso:&lt;/p>
+&lt;script async id="asciicast-560449" src="https://asciinema.org/a/560449.js">&lt;/script>
+&lt;hr>
+&lt;p>Pessoal, vou ficando por aqui, valeu!&lt;/p></content></item><item><title>Vim - Comentar &amp; DEScomentar</title><link>https://snydermacedo.github.io/posts/vim-comentario/</link><pubDate>Mon, 24 Oct 2022 00:58:04 -0400</pubDate><guid>https://snydermacedo.github.io/posts/vim-comentario/</guid><description>Comentar e DEScomentar | VIM Olá, pessoal!
+Deixando a piada “como sair do vim” um pouco de lado&amp;hellip; 1
+Nesses últimos dias estou revisando alguns arquivos de configuração no servidor e me deparei com a seguinte situação: “Comentar várias linhas no VIM”.
+Vamos ao passo a passo:
+Precisamos acessar o modo VISUAL/BLOCO.
+Para isso usamos o comando CTRL + V no VIM ou CTRL + Q para as derivações (gVim ou NeoVim).</description><content>&lt;h1 id="comentar-e-descomentar--vim">Comentar e DEScomentar | VIM&lt;/h1>
+&lt;p>Olá, pessoal!&lt;/p>
+&lt;p>Deixando a piada &lt;em>“como sair do vim”&lt;/em> um pouco de lado&amp;hellip; &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>
+&lt;p>Nesses últimos dias estou revisando alguns arquivos de configuração no servidor e me deparei com a seguinte situação: &lt;strong>“Comentar várias linhas no VIM”&lt;/strong>.&lt;/p>
+&lt;hr>
+&lt;p>Vamos ao passo a passo:&lt;/p>
+&lt;ol>
+&lt;li>Precisamos acessar o modo VISUAL/BLOCO.&lt;br>
+Para isso usamos o comando &lt;strong>CTRL + V&lt;/strong> no VIM ou &lt;strong>CTRL + Q&lt;/strong> para as derivações (gVim ou NeoVim). No meu caso, estou usando o NeoVim.&lt;/li>
+&lt;li>Agora mova o cursor até o ponto que você deseja comentar e pressione &lt;strong>SHIFT + I&lt;/strong>.&lt;/li>
+&lt;li>Neste ponto é um pouco confuso mesmo, porém, vai funcionar.&lt;br>
+Pressione &lt;strong># + ESPAÇO&lt;/strong> e para finalizar pressione &lt;strong>ESC&lt;/strong>.&lt;br>
+A mágica está feita. Abaixo deixarei um vídeo mostrando o processo.&lt;/li>
+&lt;/ol>
+&lt;blockquote>
+&lt;script id="asciicast-529636" src="https://asciinema.org/a/529636.js" async>&lt;/script>
+&lt;/blockquote>
+&lt;p>Agora vamos DEScomentar!&lt;/p>
+&lt;ol>
+&lt;li>Novamente vamos acessar o modo VISUAL/BLOCO - &lt;strong>CTRL + V&lt;/strong> ou &lt;strong>CTRL + Q&lt;/strong>.&lt;/li>
+&lt;li>Selecione o local que vamos remover o comentário.&lt;/li>
+&lt;li>Para finalizar pressione &lt;strong>X&lt;/strong> - Vídeo abaixo&lt;/li>
+&lt;/ol>
+&lt;blockquote>
+&lt;script id="asciicast-529647" src="https://asciinema.org/a/529647.js" async>&lt;/script>
+&lt;/blockquote>
+&lt;p>Pessoal, vou ficando por aqui, valeu!&lt;/p>
+&lt;p>&lt;a href="https://gist.github.com/ultim8k/d8326a0cd7646356acf0dc3baf8e78ff">Fonte&lt;/a>&lt;/p>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>&lt;a href="https://cdn.thenewstack.io/media/2022/08/0ae25624-exit-vim-the-arrival-way-6n632sipjag61-1024x692.jpg">exit to vim&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></content></item><item><title>OpenMediaVault | Overview</title><link>https://snydermacedo.github.io/posts/omv/</link><pubDate>Tue, 01 Mar 2022 00:05:46 -0400</pubDate><guid>https://snydermacedo.github.io/posts/omv/</guid><description>OpenMediaVault | Overview Olá, pessoal!
+Apresento o OpenMediaVault (OMV para os íntimos)
+Este sistema operacional se trata de um NAS, baseado no Linux Debian.
+NAS - Network Attached Storage
+Um sistema NAS é um dispositivo de armazenamento conectado a uma rede que possibilita o armazenamento e a recuperação de dados de um local centralizado para usuários autorizados da rede e clientes heterogêneos.1
+O OMV trata-se de uma solução pronta para uso (out-of-the-box), simples e fácil de usar, graças a sua Interface Web.</description><content>&lt;h1 id="openmediavault--overview">OpenMediaVault | Overview&lt;/h1>
+&lt;p>Olá, pessoal!&lt;/p>
+&lt;p>Apresento o OpenMediaVault (OMV para os íntimos)&lt;/p>
+&lt;p>Este sistema operacional se trata de um NAS, baseado no Linux Debian.&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>NAS - Network Attached Storage&lt;/strong>&lt;br>
+&lt;em>Um sistema NAS é um dispositivo de armazenamento conectado a uma rede que possibilita o armazenamento e a recuperação de dados de um local centralizado para usuários autorizados da rede e clientes heterogêneos.&lt;/em>&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>
+&lt;/blockquote>
+&lt;p>O OMV trata-se de uma solução pronta para uso (out-of-the-box), simples e fácil de usar, graças a sua Interface Web. Primariamente foi projetado para atuar em ambiente doméstico ou pequenos escritórios, mas não se limita só a esses cenários, podendo atuar também em ambiente corporativo.&lt;/p>
+&lt;p>O sistema é construído em um design modular e pode ser facilmente estendido com Plugins disponíveis logo após a instalação do sistema básico.&lt;/p>
+&lt;p>&lt;img src="http://www.openmediavault.org/wp-content/uploads/2021/11/omv6_plugins.png" alt="OMV Plugins">&lt;/p>
+&lt;h3 id="destaques">Destaques:&lt;/h3>
+&lt;ul>
+&lt;li>Disponível para plataformas x86-64 e ARM (sim pode ser instalando no seu Raspberry).&lt;/li>
+&lt;li>Possui Interface Web bastante rica, para sua administração&lt;/li>
+&lt;li>Pode ser controlado via SSH (se ativado)&lt;/li>
+&lt;li>O acesso aos protocolos: FTP, SMB/CIFS ou NFS&lt;/li>
+&lt;li>Gerenciamento de direitos de acesso para usuários e grupos.&lt;/li>
+&lt;/ul>
+&lt;h3 id="história">História&lt;/h3>
+&lt;p>&lt;img src="https://www.openmediavault.org/wp-content/uploads/2021/11/omv6_login.png" alt="OMV historia">&lt;/p>
+&lt;blockquote>
+&lt;p>A história do Openmediavault começou com Volker Theile, que foi o único desenvolvedor ativo do projeto FreeNAS no final de 2009. Volker ficou interessado em reescrever completamente o FreeNAS, para uso no Linux. Inicialmente, ele nomeou o pacote reescrito coreNAS . Pouco tempo depois, Volker descartou o nome coreNAS em favor de openmediavault . O lançamento inicial do Openmediavault foi em 17 de outubro de 2011. Ele é construído sobre camadas de software muito maduras e comprovadas e está em constante desenvolvimento. O Openmediavault depende do projeto Debian e usa seu sistema e repositórios como base. O foco do projeto é criar e manter um sistema NAS estável e extensível que seja intuitivo e fácil de usar.&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="hardware--requisitos-mínimos">Hardware | Requisitos Mínimos&lt;/h3>
+&lt;p>Para operações básicas do Servidor de Arquivos - 1 ou 2 usuários:&lt;/p>
+&lt;ul>
+&lt;li>Processador Intel Core 2 Duo ou AMD equivalente&lt;/li>
+&lt;li>1 GB de RAM&lt;/li>
+&lt;li>Armazenamento:
+&lt;ul>
+&lt;li>Disco para o OS: capacidade minima 4 GB&lt;/li>
+&lt;li>Disco para Dados: capacidade conforme a sua necessidade&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>&lt;strong>Observação&lt;/strong>&lt;/p>
+&lt;p>&lt;em>É necessário 2 discos, um exclusivo para o Sistema Operacional e outro para o Dados.&lt;/em>&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;img src="http://www.openmediavault.org/wp-content/uploads/2021/11/omv6_dashboard.png" alt="OMV End">&lt;/p>
+&lt;hr>
+&lt;p>Pessoal, vou ficando por aqui, nos próximos posts (sobre o OMV) trarei um guia de instalação mas, para quem já queira testar, aqui está o &lt;a href="%5Bhttps://www.openmediavault.org/%5D(https://www.openmediavault.org/)">link&lt;/a>&lt;/p>
+&lt;p>Valeu, até a próxima.&lt;/p>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>&lt;a href="https://www.seagate.com/br/pt/tech-insights/what-is-nas-master-ti/">NAS&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></content></item><item><title>Lançado o Proxmox 7.1</title><link>https://snydermacedo.github.io/posts/proxmox-7.1/</link><pubDate>Thu, 18 Nov 2021 19:17:21 -0400</pubDate><guid>https://snydermacedo.github.io/posts/proxmox-7.1/</guid><description>Olá pessoal!!! Nessa última quarta-feira (17/11/2021), foi o lançamento do Proxmox 7.1, trazendo várias atualizações para os principais softwares Open Source na área da Virtualização, sendo eles: QEMU 6.1, LXC 4.0, Ceph Pacific 16.2.6 e ZFS 2.1. Outra novidade, é que esta nova versão é baseada no Debian Bullseye 11.1, combinada com o kernel Linux 5.13 mais recente.
+Abaixo a lista de algumas novidades:
+Definir a retenção de backup por trabalho de backup via GUI: isso permite que os usuários configurem políticas de backup inteligentes para cada trabalho de backup, não apenas da API e CLI, mas também da interface da web.</description><content>&lt;p>Olá pessoal!!!
+Nessa última quarta-feira (17/11/2021), foi o lançamento do Proxmox 7.1, trazendo várias atualizações para os principais softwares &lt;strong>Open Source&lt;/strong> na área da &lt;strong>Virtualização&lt;/strong>, sendo eles: QEMU 6.1, LXC 4.0, Ceph Pacific 16.2.6 e ZFS 2.1. Outra novidade, é que esta nova versão é baseada no Debian Bullseye 11.1, combinada com o kernel &lt;strong>Linux&lt;/strong> 5.13 mais recente.&lt;/p>
+&lt;p>&lt;strong>Abaixo a lista de algumas novidades:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Definir a retenção de backup por trabalho de backup via GUI: isso permite que os usuários configurem políticas de backup inteligentes para cada trabalho de backup, não apenas da API e CLI, mas também da interface da web.&lt;/li>
+&lt;li>Opções de agendamento avançadas para tarefas de backup: as tarefas de backup no Proxmox VE agora são executadas por um novo daemon de agendador, chamado pvescheduler, que oferece suporte a opções de agendamento mais flexíveis.&lt;/li>
+&lt;li>Para máquinas virtuais, esta versão inclui suporte para adicionar o Trusted Platform Module (TPM) 2.0 a qualquer VM. Entre outras coisas, isso permite aos usuários instalar e executar o Windows 11.
+-Os contêineres no Proxmox VE 7.1 agora oferecem suporte ao Fedora 35 e ao Ubuntu 21.10, bem como às distribuições AlmaLinux e Rocky Linux, incluindo modelos.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>Agora é preparar o laboratório para os testes. ☢️&lt;/p>
+&lt;p>💾 &lt;strong>&lt;a href="https://www.proxmox.com/en/downloads/item/proxmox-ve-7-1-iso-installer">Link para Download&lt;/a>&lt;/strong> 💾&lt;/p>
+&lt;p>Pessoal, para mais informação segue o &lt;strong>&lt;a href="https://www.proxmox.com/en/news/press-releases/proxmox-virtual-environment-7-1-released">Link&lt;/a>&lt;/strong> para a matéria completa.&lt;/p>
+&lt;p>Abaixo, o vídeo do Canal Proxmox mostrando as novidades.&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/NLV6QPaHVFY" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;h2 id="valeu-galera">Valeu galera!&lt;/h2></content></item><item><title>Ideias Para o Blog</title><link>https://snydermacedo.github.io/posts/ideias-para-o-blog/</link><pubDate>Wed, 17 Nov 2021 13:10:16 -0400</pubDate><guid>https://snydermacedo.github.io/posts/ideias-para-o-blog/</guid><description>Ideias Para o Blog Pessoal este blog tem como foco Tecnologias Open Source, mas também pretendendo trazer os seguintes conteudos:
+⛩️ Animes 🎮 Games 🖥️ Hardware 🎬 Cinema 🎧 Musica 🎙️ PodCast Pode aparecer algum outro tópico, eu acrescento. 😅</description><content>&lt;h1 id="ideias-para-o-blog">Ideias Para o Blog&lt;/h1>
+&lt;p>Pessoal este blog tem como foco &lt;strong>Tecnologias Open Source&lt;/strong>, mas também pretendendo trazer os seguintes conteudos:&lt;/p>
+&lt;ul>
+&lt;li>⛩️ Animes&lt;/li>
+&lt;li>🎮 Games&lt;/li>
+&lt;li>🖥️ Hardware&lt;/li>
+&lt;li>🎬 Cinema&lt;/li>
+&lt;li>🎧 Musica&lt;/li>
+&lt;li>🎙️ PodCast&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>Pode aparecer algum outro tópico, eu acrescento. 😅&lt;/p></content></item><item><title>New Blog</title><link>https://snydermacedo.github.io/posts/new-blog/</link><pubDate>Tue, 16 Nov 2021 20:29:18 -0400</pubDate><guid>https://snydermacedo.github.io/posts/new-blog/</guid><description>Olá pessoal, este é o primeiro Post do meu novo Blog, usando o framework Hugo Hora de recuperar o tempo perdido</description><content>&lt;h1 id="olá-pessoal-este-é-o-primeiro-post-do-meu-novo-blog-usando-o-framework-hugo">Olá pessoal, este é o primeiro Post do meu novo Blog, usando o framework Hugo&lt;/h1>
+&lt;ul>
+&lt;li>&lt;/li>
+&lt;/ul>
+&lt;h1 id="hora-de-recuperar-o-tempo-perdido">Hora de recuperar o tempo perdido&lt;/h1></content></item></channel></rss>

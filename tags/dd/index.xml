@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>dd on Terminal</title><link>https://snydermacedo.github.io/tags/dd/</link><description>Recent content in dd on Terminal</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 21 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://snydermacedo.github.io/tags/dd/index.xml" rel="self" type="application/rss+xml"/><item><title>Wipe Disk | dd</title><link>https://snydermacedo.github.io/posts/wipe_dd/</link><pubDate>Tue, 21 Feb 2023 00:00:00 +0000</pubDate><guid>https://snydermacedo.github.io/posts/wipe_dd/</guid><description>Wipe Disk com dd Olá, pessoal!
+Neste post vou mostra a vocês como fazer:
+Wipe Disk | Limpeza de Disco Diferente de uma formatação, o Wipe sobrescreve os bits do seu dispositivo com zer0s, dificultando e muito a recuperação dos dados. Esse procedimento é recomendado quando vamos fazer uma doação ou venda.
+Bem, para executar o wipe vou usar a ferramenta ‘dd&amp;rsquo;, o comando vai ficar assim:
+# dd if=/dev/zero of=/dev/sdX bs=4096 status=progress Vamos a explicação:</description><content>&lt;h1 id="wipe-disk-com-dd">Wipe Disk com dd&lt;/h1>
+&lt;p>Olá, pessoal!&lt;/p>
+&lt;p>Neste post vou mostra a vocês como fazer:&lt;/p>
+&lt;pre tabindex="0">&lt;code>Wipe Disk | Limpeza de Disco
+&lt;/code>&lt;/pre>&lt;p>Diferente de uma formatação, o Wipe sobrescreve os bits do seu dispositivo com zer0s, dificultando e muito a recuperação dos dados.
+Esse procedimento é recomendado quando vamos fazer uma doação ou venda.&lt;/p>
+&lt;p>Bem, para executar o wipe vou usar a ferramenta ‘dd&amp;rsquo;, o comando vai ficar assim:&lt;/p>
+&lt;pre tabindex="0">&lt;code class="language-sh:" data-lang="sh:"># dd if=/dev/zero of=/dev/sdX bs=4096 status=progress
+&lt;/code>&lt;/pre>&lt;p>Vamos a explicação:&lt;/p>
+&lt;ul>
+&lt;li>if – origem | vamos usar o arquivo especial /dev/zero&lt;/li>
+&lt;li>of – destino | informamos o disco que queremos limpar (se atente ao X)&lt;/li>
+&lt;li>bs - a quantidade de bytes lido ou escrito por vez&lt;/li>
+&lt;li>status – mostra estatísticas periódicas de transferência.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>Como exemplo, vou executar o comando em um pendrive.&lt;br>
+Para descobrir o caminho do pendrive vou usar o comando:&lt;/p>
+&lt;pre tabindex="0">&lt;code class="language-sh:" data-lang="sh:">sudo fdisk -l
+&lt;/code>&lt;/pre>&lt;p>Retornando a informação:&lt;/p>
+&lt;pre tabindex="0">&lt;code>Disco /dev/sdb: 3,61 GiB, 3880452096 bytes, 7579008 setores
+Modelo de disco: USB DISK 2.0
+Unidades: setor de 1 * 512 = 512 bytes
+Tamanho de setor (lógico/físico): 512 bytes / 512 bytes
+Tamanho E/S (mínimo/ótimo): 512 bytes / 512 bytes
+Tipo de rótulo do disco: gpt
+Identificador do disco: 7D7473EA-FCE2-4E11-B09B-A49D0A25CE4C
+&lt;/code>&lt;/pre>&lt;p>Na primeira linha já informa o caminho &amp;ldquo;/dev/sdb&amp;rdquo;&lt;/p>
+&lt;p>Pronto, vamos fazer &amp;ldquo;Wipe&amp;rdquo; neste pendrive, o nosso comando vai ficar assim:&lt;/p>
+&lt;pre tabindex="0">&lt;code class="language-sh:" data-lang="sh:">% sudo dd if=/dev/zero of=/dev/sdb bs=4096 status=progress
+&lt;/code>&lt;/pre>&lt;p>Ao término, o processo vai ficar assim:&lt;/p>
+&lt;p>&lt;img src="https://snydermacedo.github.io/img/wipe-red-drive.png" alt="Wipe Red Drive">&lt;/p>
+&lt;hr>
+&lt;p>Caso queria assistir todo o procedimento, só ficou um pouco extenso:&lt;/p>
+&lt;script async id="asciicast-560449" src="https://asciinema.org/a/560449.js">&lt;/script>
+&lt;hr>
+&lt;p>Pessoal, vou ficando por aqui, valeu!&lt;/p></content></item></channel></rss>

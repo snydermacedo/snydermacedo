@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>virtualization on Terminal</title><link>https://snydermacedo.github.io/tags/virtualization/</link><description>Recent content in virtualization on Terminal</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 26 Mar 2023 15:34:27 -0400</lastBuildDate><atom:link href="https://snydermacedo.github.io/tags/virtualization/index.xml" rel="self" type="application/rss+xml"/><item><title>Lançado o Proxmox 7.4</title><link>https://snydermacedo.github.io/posts/proxmox-7.4/</link><pubDate>Sun, 26 Mar 2023 15:34:27 -0400</pubDate><guid>https://snydermacedo.github.io/posts/proxmox-7.4/</guid><description>Proxmox 7.1 - Dark Mode Olá, pessoal!!!
+Nessa última quarta-feira (23/03/2023), foi o lançamento do Proxmox 7.4, destacando:
+Base Debian 11.6 (“Bullseye”), com o kernel Linux 5.15 LTS Instalação opcional do kernel Linux 6.2 | Suporte para os hardwares mais recente O tão aguardado: &amp;ldquo;Proxmox Dark&amp;rdquo; 💾 Link para Download 💾
+Para confera a materia completa, clique aqui.
+Vou deixar também o video mostrando todas as novidades:
+Pessoal, vou ficando por aqui, valeu!</description><content>&lt;h1 id="proxmox-71---dark-mode">Proxmox 7.1 - Dark Mode&lt;/h1>
+&lt;p>Olá, pessoal!!!&lt;/p>
+&lt;p>Nessa última quarta-feira (23/03/2023), foi o lançamento do Proxmox 7.4, destacando:&lt;/p>
+&lt;ul>
+&lt;li>Base Debian 11.6 (“Bullseye”), com o kernel Linux 5.15 LTS&lt;/li>
+&lt;li>Instalação opcional do kernel Linux 6.2 | Suporte para os hardwares mais recente&lt;/li>
+&lt;li>O tão aguardado: &amp;ldquo;Proxmox Dark&amp;rdquo;&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://proxmox.com/images/proxmox/screenshots/Proxmox-VE-7-4-OSD-Details.png" alt="Dark Mode">&lt;/p>
+&lt;p>💾 &lt;a href="https://proxmox.com/en/downloads/item/proxmox-ve-7-4-iso-installer">&lt;strong>Link para Download&lt;/strong>&lt;/a> 💾&lt;/p>
+&lt;p>Para confera a materia completa, clique &lt;a href="https://proxmox.com/en/news/press-releases/proxmox-virtual-environment-7-4">&lt;strong>aqui&lt;/strong>&lt;/a>.&lt;/p>
+&lt;p>Vou deixar também o video mostrando todas as novidades:&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/CnJX5gaoges" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;h1 id="pessoal-vou-ficando-por-aqui-valeu">Pessoal, vou ficando por aqui, valeu!&lt;/h1></content></item><item><title>Lançado o Proxmox 7.1</title><link>https://snydermacedo.github.io/posts/proxmox-7.1/</link><pubDate>Thu, 18 Nov 2021 19:17:21 -0400</pubDate><guid>https://snydermacedo.github.io/posts/proxmox-7.1/</guid><description>Olá pessoal!!! Nessa última quarta-feira (17/11/2021), foi o lançamento do Proxmox 7.1, trazendo várias atualizações para os principais softwares Open Source na área da Virtualização, sendo eles: QEMU 6.1, LXC 4.0, Ceph Pacific 16.2.6 e ZFS 2.1. Outra novidade, é que esta nova versão é baseada no Debian Bullseye 11.1, combinada com o kernel Linux 5.13 mais recente.
+Abaixo a lista de algumas novidades:
+Definir a retenção de backup por trabalho de backup via GUI: isso permite que os usuários configurem políticas de backup inteligentes para cada trabalho de backup, não apenas da API e CLI, mas também da interface da web.</description><content>&lt;p>Olá pessoal!!!
+Nessa última quarta-feira (17/11/2021), foi o lançamento do Proxmox 7.1, trazendo várias atualizações para os principais softwares &lt;strong>Open Source&lt;/strong> na área da &lt;strong>Virtualização&lt;/strong>, sendo eles: QEMU 6.1, LXC 4.0, Ceph Pacific 16.2.6 e ZFS 2.1. Outra novidade, é que esta nova versão é baseada no Debian Bullseye 11.1, combinada com o kernel &lt;strong>Linux&lt;/strong> 5.13 mais recente.&lt;/p>
+&lt;p>&lt;strong>Abaixo a lista de algumas novidades:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Definir a retenção de backup por trabalho de backup via GUI: isso permite que os usuários configurem políticas de backup inteligentes para cada trabalho de backup, não apenas da API e CLI, mas também da interface da web.&lt;/li>
+&lt;li>Opções de agendamento avançadas para tarefas de backup: as tarefas de backup no Proxmox VE agora são executadas por um novo daemon de agendador, chamado pvescheduler, que oferece suporte a opções de agendamento mais flexíveis.&lt;/li>
+&lt;li>Para máquinas virtuais, esta versão inclui suporte para adicionar o Trusted Platform Module (TPM) 2.0 a qualquer VM. Entre outras coisas, isso permite aos usuários instalar e executar o Windows 11.
+-Os contêineres no Proxmox VE 7.1 agora oferecem suporte ao Fedora 35 e ao Ubuntu 21.10, bem como às distribuições AlmaLinux e Rocky Linux, incluindo modelos.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>Agora é preparar o laboratório para os testes. ☢️&lt;/p>
+&lt;p>💾 &lt;strong>&lt;a href="https://www.proxmox.com/en/downloads/item/proxmox-ve-7-1-iso-installer">Link para Download&lt;/a>&lt;/strong> 💾&lt;/p>
+&lt;p>Pessoal, para mais informação segue o &lt;strong>&lt;a href="https://www.proxmox.com/en/news/press-releases/proxmox-virtual-environment-7-1-released">Link&lt;/a>&lt;/strong> para a matéria completa.&lt;/p>
+&lt;p>Abaixo, o vídeo do Canal Proxmox mostrando as novidades.&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/NLV6QPaHVFY" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;h2 id="valeu-galera">Valeu galera!&lt;/h2></content></item></channel></rss>

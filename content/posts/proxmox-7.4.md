@@ -9,7 +9,7 @@ description = "Update Proxmox"
 readingTime = true
 +++
 
-# Proxmox 7.1 - Dark Mode 
+# Proxmox 7.4 - Dark Mode 
 
 Olá, pessoal!!!
 

@@ -45,7 +45,7 @@ enableEmoji=true
   # oneHeadingSize = false
 
 [languages]
-  [languages.en]
+  [languages.en.params]
     languageName = "English"
     title = "Terminal"
     subtitle = "Meu Blog - Snyder Macedo | Framework Hugo"

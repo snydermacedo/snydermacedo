@@ -9,4 +9,12 @@ description = ""
 readingTime = true
 +++
 
-# 🎮 Review em Breve 🎮
+#  🎮 Review em Breve 🎮
+# A familia Bergsons | 
+
+Olá Pessoal!
+
+---
+<audio controls loop>
+  <source src="/audio/We Are The Bergsons.mp3" type="audio/mp3">
+</audio>

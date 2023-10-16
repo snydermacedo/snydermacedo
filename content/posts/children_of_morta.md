@@ -7,6 +7,7 @@ tags = ["indie", "games_linux"]
 keywords = ["indie", "games_linux"]
 description = ""
 readingTime = true
+draft = true
 +++
 
 #  🎮 Review em Breve 🎮

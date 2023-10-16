@@ -1,7 +1,28 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>games_linux on Snyder Macedo</title><link>https://snydermacedo.github.io/tags/games_linux/</link><description>Recent content in games_linux on Snyder Macedo</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 26 Mar 2023 19:22:35 -0400</lastBuildDate><atom:link href="https://snydermacedo.github.io/tags/games_linux/index.xml" rel="self" type="application/rss+xml"/><item><title>Children of Morta</title><link>https://snydermacedo.github.io/posts/children_of_morta/</link><pubDate>Sun, 26 Mar 2023 19:22:35 -0400</pubDate><guid>https://snydermacedo.github.io/posts/children_of_morta/</guid><description>🎮 Review em Breve 🎮 A familia Bergsons | Olá Pessoal!</description><content>&lt;h1 id="-review-em-breve-">🎮 Review em Breve 🎮&lt;/h1>
-&lt;h1 id="a-familia-bergsons-">A familia Bergsons |&lt;/h1>
-&lt;p>Olá Pessoal!&lt;/p>
-&lt;hr>
-&lt;audio controls loop>
-&lt;source src="https://snydermacedo.github.io/audio/We Are The Bergsons.mp3" type="audio/mp3">
-&lt;/audio></content></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>games_linux on Snyder Macedo</title>
+    <link>https://snydermacedo.github.io/tags/games_linux/</link>
+    <description>Recent content in games_linux on Snyder Macedo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 26 Mar 2023 19:22:35 -0400</lastBuildDate><atom:link href="https://snydermacedo.github.io/tags/games_linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Children of Morta</title>
+      <link>https://snydermacedo.github.io/posts/children_of_morta/</link>
+      <pubDate>Sun, 26 Mar 2023 19:22:35 -0400</pubDate>
+      
+      <guid>https://snydermacedo.github.io/posts/children_of_morta/</guid>
+      <description>🎮 Review em Breve 🎮 A familia Bergsons | Olá Pessoal!</description>
+      <content>&lt;h1 id=&#34;-review-em-breve-&#34;&gt;🎮 Review em Breve 🎮&lt;/h1&gt;
+&lt;h1 id=&#34;a-familia-bergsons-&#34;&gt;A familia Bergsons |&lt;/h1&gt;
+&lt;p&gt;Olá Pessoal!&lt;/p&gt;
+&lt;hr&gt;
+&lt;audio controls loop&gt;
+  &lt;source src=&#34;https://snydermacedo.github.io/audio/We Are The Bergsons.mp3&#34; type=&#34;audio/mp3&#34;&gt;
+&lt;/audio&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>
